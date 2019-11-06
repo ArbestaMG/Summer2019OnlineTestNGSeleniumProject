@@ -6,10 +6,18 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.ArrayList;
 
+
 public class TitleVerification2 {
+/*
+    public static void Trimmer(String str){
+        String mainstr = str.replaceAll(" ", "");
+        String realstr= str.replace("https://www.","");
+        realstr= realstr.replace(".com/","");
 
-
-
+        System.out.println(mainstr);
+        System.out.println(realstr);
+    }
+*/
 
     public static void main(String[] args) {
 

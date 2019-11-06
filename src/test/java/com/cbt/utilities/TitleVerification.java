@@ -5,13 +5,13 @@ import Utils.BrowserUtils;
 import org.openqa.selenium.WebDriver;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class TitleVerification {
     public static void main(String[] args) {
-        ArrayList<String> urls = new ArrayList<>();
-        urls.add("http://practice.cybertekschool.com/");
-        urls.add("http://practice.cybertekschool.com/dropdown" );
-        urls.add("http://practice.cybertekschool.com/login");
+        List<String> urls = Arrays.asList("http://practice.cybertekschool.com/",
+                "http://practice.cybertekschool.com/dropdown", "http://practice.cybertekschool.com/login");
 
         WebDriver driver = BrowserFactory.getDriver("chrome");
 
