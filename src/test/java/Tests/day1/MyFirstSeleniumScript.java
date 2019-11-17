@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class MyFirstSeleniumScript {
     public static void main(String[] args) {
         //we have to setup webdriver based on the browser that we gonna use
+        System.setProperty("webdriver.chrome.driver","/path/chromedriver");
+
         WebDriverManager.chromedriver().setup();// buradaki chromedriver a firefoxdriver yaparsak firefoxa doner
         //we need to create an object of appropriate class
         ChromeDriver driver = new ChromeDriver();// buradaki icin de usttekinin aynisi
