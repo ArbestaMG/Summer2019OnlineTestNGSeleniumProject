@@ -12,6 +12,7 @@ public class AbsoluteXpatchTest {
     public static void main(String[] args) {
         WebDriver driver = BrowserFactory.getDriver("chrome");
         driver.get("https://login1.nextbasecrm.com/?login=yes");
+        //
         //click on login without entering username and password
         //to invoke warning message
         driver.findElement(By.className("login-btn")).click();
