@@ -16,7 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Fleet_Management_Testing {
+public class TestCases_1_5 {
 
     private WebDriver driver;
     private WebDriverWait wait;

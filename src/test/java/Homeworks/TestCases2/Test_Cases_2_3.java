@@ -1,4 +1,4 @@
-package Homeworks.Basic_Navigation;
+package Homeworks.TestCases2;
 
 import Utils.BrowserFactory;
 import org.openqa.selenium.By;

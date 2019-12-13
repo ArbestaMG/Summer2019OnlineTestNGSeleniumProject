@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+    <test name="New Calendar events tests">
+        <parameter name="test" value="regression"></parameter>
+        <packages>
+            <package name="Tests.Vytrack"></package>
+        </packages>
+    </test>
+</suite>

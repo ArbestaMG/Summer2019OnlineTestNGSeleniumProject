@@ -31,16 +31,20 @@ public class WaitsPractice {
         //to wait within 10 seconds, until element is present
         //we apply it once, and it always works
         //put this line into @BeforeMethod and it will work for all tests
+
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.linkText("Dynamic Loading")).click();
+
         //partialLinkText we match only part of the link text
         //partialLinkText it's like contains text
         //Example 2: Element on the page that is rendered after the trigger - link text
         //Example 2 - only part of the link text
         //we can use partialLinkText locator to find element by partial text
+
         driver.findElement(By.partialLinkText("Example 2")).click();
         driver.findElement(By.tagName("button")).click();
         //this is for "Hello World!"
+
         WebElement finishElement = driver.findElement(By.id("finish"));
         System.out.println(finishElement.getText());
     }

@@ -1,4 +1,4 @@
-package Homeworks.Basic_Navigation;
+package Homeworks.TestCases1;
 
 import Utils.BrowserFactory;
 import Utils.BrowserUtils;
