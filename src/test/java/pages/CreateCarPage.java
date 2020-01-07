@@ -25,6 +25,11 @@ public class CreateCarPage extends BasePage {
     @FindBy(css = "div[id*='FuelType']")
     public WebElement fuelTypeElement;
 
+    @FindBy(name = "custom_entity_type[ModelYear]")
+    public WebElement modelYearElement;
+
+    @FindBy(name = "custom_entity_type[Color]")
+    public WebElement colorElement;
     //if this locator doesn't work, use [id^='uniform-custom_entity_type_Logo_file'] > span[class='action']
     @FindBy(name = "custom_entity_type[Logo][file]")
     public WebElement logoElement;
